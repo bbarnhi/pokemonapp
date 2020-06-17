@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.pokeCard {
+  display: inline-block;
+  max-width: 30%;  
+  height: 300px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid black;
+}
+.profile-img {
+  display: inline;
+  height: 125px;
+  width: 125px;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  top: -100px;
+  left: -75px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.heading{
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  top: -125px;
+  margin-bottom: 1.5rem;
+}
+
+.description{
+  font-size: 0.5rem;
+  letter-spacing: .1rem;
+  line-height: 1.7;
+  position: relative;
+  color: black;
+  top: -125px;
+  margin-bottom: 2.5rem; 
+}
+
+h1 {
+  font-family: 'Sriracha', arial, sans-serif;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: teal;
+}
+button {
+  text-align: center;
+  border: solid 2px darkblue;
+  width: 75px;
+  padding: 5px 0;
+  border-radius: 5px;
+
+}
+.cardButton{
+  position: relative;
+  top: -80px;
+}
+label{
+  position: relative;
+  top: -80px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  height: 30px;
+  padding: 0 20px;
+  margin-left: -20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+    display: flex;
+
+      margin-right: 10px;
+      border-right: 4px solid white;
+      padding-right: 10px;
+    
+  
+}
