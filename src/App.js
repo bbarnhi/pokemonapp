@@ -56,13 +56,13 @@ class App extends React.Component {
         <button type="submit" onClick={this.handleAll}>View All</button>
         <button type="Submit" onClick={this.load}>Load Team</button>
       </form>
-      <div>
+      <div class="arenaDiv">
         {this.arena.render()}       
       </div>
-      <div>
+      <div class="mainDiv">
         {this.pokedex.render()}       
       </div>
-      <div>
+      <div class="collectionDiv"> 
         {this.team.render()}
       </div>
     </div>

@@ -1,6 +1,28 @@
-.App {
+/* .App {
   text-align: center;
+  column-count: 10;
 }
+.arenaDiv {
+  column-span: 7;
+  height: 40%;
+  bottom: 0;
+  border: 1px solid black;
+}
+
+.collectionDiv {
+  column-span: 3;
+  height: 100%;
+  right: 0;
+  border: 1px solid black;
+}
+
+.mainDiv {
+  column-span: 7;
+  height: 60%;
+  top: 0;
+  border: 1px solid black;
+
+} */
 
 .App-logo {
   height: 40vmin;
@@ -48,7 +70,7 @@
   line-height: 1.7;
   position: relative;
   color: black;
-  top: -125px;
+  top: -140px;
   margin-bottom: 2.5rem; 
 }
 
@@ -56,7 +78,7 @@ h1 {
   font-family: 'Sriracha', arial, sans-serif;
   text-align: right;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 5px;
   color: teal;
 }
 button {
@@ -69,11 +91,11 @@ button {
 }
 .cardButton{
   position: relative;
-  top: -80px;
+  top: -150px;
 }
 label{
   position: relative;
-  top: -80px;
+  top: -150px;
 }
 .App-header {
   background-color: #282c34;
